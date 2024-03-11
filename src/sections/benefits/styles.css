@@ -1,0 +1,79 @@
+.benefits-section{
+  position: relative;
+  z-index: 1000;
+  background-color: #ffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .benefits-section h2, h3 div, h1, p{
+  color: var(--dark-primary);
+} */
+
+.benefits-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+
+.benefits-title .title-purple{
+  margin-top: 7.5rem;
+  color: #7C5CFC;
+  font-size: 1.25rem;
+}
+
+.benefits-title h1{
+  margin-top: 0.75rem;
+  color: var(--dark-primary);
+  font-size: 2.5rem;
+}
+
+.benefits-title p{
+  margin-top: 0.75rem;
+  color: var(--gray);
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.benefits-title .title{
+  margin-top: 7.5rem;
+}
+
+.benefits-details h1, h2, h3, p{
+  color: var(--dark-primary);
+}
+
+.benefits-details{
+  margin-top: 4.8125rem;
+  width: 100%;
+  padding: 0 280px;
+  display: flex;
+} 
+
+.benefits-cards{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+}
+
+.benefits-details .benefits-card{
+  display: flex;
+
+}
+
+.benefits-details .benefits-card .card-image{
+
+}
+
+.benefits-details .benefits-card .card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-left: 2rem;
+}

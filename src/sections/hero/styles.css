@@ -1,0 +1,54 @@
+.section1-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dark-primary);
+  height: 100vh;
+}
+
+
+.hero-container{
+  margin-top: 7.5rem;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title{
+  font-size: 4.5rem;  
+}
+
+.hero-legend{
+  margin-top: 1.5rem;
+  color: var(--gray-secondary);
+  font-size: 1.5625rem;
+}
+
+.hero-cta{
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero-preview-dashboard{
+  margin: 5rem;
+  position: relative;
+  height: 200px;
+  z-index: 100;
+}
+
+
+.eclipse-top{
+  position: fixed;
+  top: -30rem;
+  right: -18rem;
+}
+
+.eclipse-bottom{
+  position: fixed;
+  bottom: -30rem;
+  left: -18rem;
+}

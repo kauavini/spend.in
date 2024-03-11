@@ -1,0 +1,28 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* backgrounds */
+  --dark-primary: #040815;
+  --gray: #1A202C;
+
+  /* font colors */
+
+  --white-primary: #FFFF;
+  --gray-primary: #C3D4E9;
+  --gray-secondary: #90A3BF;
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
