@@ -1,0 +1,64 @@
+.how-works-container{
+  height: 100vh;
+  background-color: var(--dark-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.how-works-container .how-works-content{
+  display: flex;
+  gap: 6.375rem;
+  padding: 0 280px;
+}
+
+
+.how-works-details
+
+
+.how-works-title h2{
+  font-size: 1.25rem;
+  color: #7C5CFC;
+}
+
+.how-works-title h1{
+  margin-top: 0.8rem;
+  font-size: 2.5rem;
+}
+
+.how-works-title p{
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: var(--gray-secondary);
+}
+
+.how-works-steps{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: var(--gray);
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.how-works-steps span{
+  font-size: 1.5rem;
+  width: 48px;
+  height: 48px;
+  padding: 1rem;
+  border-radius: 100%;
+  background-color: #7C5CFC;
+  margin-right: 1rem;
+}
+
+.how-works-steps img{
+  position: absolute;
+}
+
+.how-works-steps .line{
+  left: 3.2rem;
+  bottom: 0;
+}

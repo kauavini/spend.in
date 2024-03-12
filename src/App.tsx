@@ -5,6 +5,7 @@ import './App.css'
 import { Theme } from './theme'
 import Hero from './sections/hero'
 import Benefits from './sections/benefits'
+import HowWorks from './sections/howitworks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <Theme> 
         <Hero/>
         <Benefits/>
+        <HowWorks/>
     </Theme>
   )
 }

@@ -48,12 +48,22 @@
   color: var(--dark-primary);
 }
 
+.benefits-details p{
+  color: var(--gray);
+}
+
 .benefits-details{
   margin-top: 4.8125rem;
   width: 100%;
   padding: 0 280px;
+  gap: 5.9375rem;
   display: flex;
 } 
+
+.benefits-card{
+  width: 100%;
+  padding: 0 1.5rem;
+}
 
 .benefits-cards{
   margin-top: 1.5rem;
