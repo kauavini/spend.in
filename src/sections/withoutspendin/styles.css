@@ -1,8 +1,10 @@
 .sucess-container{
   height: 100vh;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .sucess-container .sucess-content{
   display: flex;
@@ -11,7 +13,7 @@
 }
 
 .sucess-details h2{
-  margin-top: 7.5rem;
+  margin-top: 2rem;
   font-size: 1.25rem;
   color: #7C5CFC;
 }
@@ -22,7 +24,6 @@
   color: var(--dark-primary);
 
 }
-
 
 .sucess-toggle{
   margin-top: 4rem;

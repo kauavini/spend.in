@@ -2,7 +2,7 @@ import "./styles.css"
 import BalanceStatistics from "../../assets/balance-statistics.svg"
 import SucessTitle from "../../assets/sucess-circle.svg"
 
-export default function Success(){
+export default function WithSpendin(){
 
   return (
     <section className="sucess-container"> 
