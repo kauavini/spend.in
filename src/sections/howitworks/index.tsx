@@ -24,7 +24,7 @@ export default function HowWorks(){
             {/* <img src={Line} alt="" className="line"/>
             <img src={DottedLine} alt="" className="dotted" /> */}
               <div> <span>1</span> Register your Spend.In account.</div>
-              <div> <span>2</span>Fill in the list of your business expenses.</div>
+              <div> <span>2</span> Fill in the list of your business expenses.</div>
               <div> <span>3</span> Done, let’s continue the work.</div>
           </div>
         </div>

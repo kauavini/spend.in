@@ -13,9 +13,6 @@
 }
 
 
-.how-works-details
-
-
 .how-works-title h2{
   font-size: 1.25rem;
   color: #7C5CFC;
@@ -36,7 +33,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 4rem;
   padding: 2rem;
   margin-top: 2rem;
   background-color: var(--gray);
@@ -45,11 +42,10 @@
 }
 
 .how-works-steps span{
-  font-size: 1.5rem;
-  width: 48px;
-  height: 48px;
-  padding: 1rem;
-  border-radius: 100%;
+  padding: 1.25rem 1.5rem;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
   background-color: #7C5CFC;
   margin-right: 1rem;
 }
