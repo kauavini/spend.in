@@ -7,6 +7,7 @@
   height: 100px;
   background-color: var(--dark-primary);
   font-size: 1.125rem;
+  border-bottom: 1px solid var(--gray-secondary);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -35,7 +36,6 @@
   margin-bottom: -4px;
 }
 
-
 .navbar-cta{
   display: flex;
   gap: 32px;
@@ -62,4 +62,33 @@
   border-radius: 30px;
   font-weight: 600;
   padding: 0.875rem 1.5rem;
+}
+
+
+
+
+@media(max-width: 450px){
+
+
+  .navbar-logo{
+      transform: scale(0.9);
+      transition: transform 0.6s;
+  }
+
+  .navbar-container, .hero-container{
+    padding: 1.75rem;
+  }
+
+  .navbar-navigation, .navbar-cta{
+    display: none;
+  }
+
+  .menu-mobile button{
+    background: transparent; 
+  }
+
+  .hero-container .hero-title{
+    font-size: 2rem;
+  }
+
 }

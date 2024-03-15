@@ -1,7 +1,6 @@
 import "./styles.css"
 
-import { ChevronDown } from "lucide-react"
-
+import { ChevronDown, Menu } from "lucide-react"
 
 import SpendinLogo from "../assets/spendin-logo.svg"
 import SpendinName from "../assets/spendin.svg"
@@ -24,6 +23,10 @@ export function Navbar(){
           <div className="navbar-cta">
             <button>Entrar</button>
             <button>Get Demo</button>
+            <button className="menu"> <Menu/></button>
+          </div>
+          <div className="menu-mobile">
+            <button className="menu"> <Menu width={32} height={32} /></button>
           </div>
       </div>
   )

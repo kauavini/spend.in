@@ -1,5 +1,6 @@
 import { Navbar } from "../../components/navbar";
 
+import DashboardMobile from "../../assets/dashboard-mobile.svg";
 import Dashboard from "../../assets/dashboard.svg";
 import Eclipse from "../../assets/eclipse.svg";
 
@@ -34,7 +35,8 @@ export default function Hero(){
             </button>
           </div>
           <div className="hero-preview-dashboard">
-              <img src={Dashboard} alt="" />
+              <img className="dash-desktop" src={Dashboard} alt="dashboard desktop" />
+              <img  className="dash-mobile" src={DashboardMobile} alt="dashboard mobile" />
           </div>
         </div>
     </section>

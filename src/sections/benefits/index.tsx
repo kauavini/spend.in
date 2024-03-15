@@ -9,7 +9,7 @@ export default function Benefits(){
 
   return (
     <section className="benefits-section">
-        <div className="benefits-title">
+        <div className="benefits-container">
           <div className="benefits-title">
             <h2 className="title-purple">WHY USE SPEND.IN</h2>
             <h1>Easy, Simple, Affordable</h1>
@@ -48,7 +48,7 @@ export default function Benefits(){
             </div>
           </div>
           </div>  
-          <div>
+          <div className="transaction-history">
             <img src={TransactionHistory} alt="" />
           </div>
         </div>

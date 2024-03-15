@@ -55,3 +55,74 @@
   left: -18rem;
   z-index: 0;
 }
+
+
+
+.dash-mobile{
+  display: none;
+}
+
+
+/* responsive media queries */
+
+
+/* mobile */
+
+@media (max-width: 450px) {
+
+  .section1-container{
+    height: 88vh;
+  }
+
+  
+  .eclipse-top{
+        transform: scale(0.5);
+        top: -32em;
+        right: -30rem;
+        transition: all 0.6s;
+  }
+
+  .eclipse-bottom{
+      transform: scale(0.5);
+      bottom: -18rem;
+      left: -35rem;
+      transition: all 0.6s;
+  }
+
+  .hero-container {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+  }
+
+  .hero-container p{
+    font-size: 0.875rem;
+  }
+
+  .hero-cta{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta .button-cta-gray{
+    background-color: transparent;
+  }
+
+  .hero-preview-dashboard{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dash-desktop{
+    display: none;
+  }
+
+  .dash-mobile{
+    display: block;
+  }
+}
+
+
