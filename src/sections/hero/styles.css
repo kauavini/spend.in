@@ -8,6 +8,7 @@
 
 
 .hero-container{
+  position: relative;
   margin-top: 7.5rem;
   width: 50%;
   display: flex;
@@ -45,10 +46,12 @@
   position: fixed;
   top: -30rem;
   right: -18rem;
+  z-index: 0;
 }
 
 .eclipse-bottom{
   position: fixed;
   bottom: -30rem;
   left: -18rem;
+  z-index: 0;
 }

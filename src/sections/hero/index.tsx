@@ -1,9 +1,9 @@
 import { Navbar } from "../../components/navbar";
 
-import Dashboard from "../../assets/dashboard.svg"
-import Eclipse from "../../assets/eclipse.svg"
+import Dashboard from "../../assets/dashboard.svg";
+import Eclipse from "../../assets/eclipse.svg";
 
-import "./styles.css"
+import "./styles.css";
 
 export default function Hero(){
 

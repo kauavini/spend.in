@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Theme } from './theme'
-import Hero from './sections/hero'
 import Benefits from './sections/benefits'
+import Hero from './sections/hero'
 import HowWorks from './sections/howitworks'
-import WithSpendin from './sections/withspendin'
+import WhatSay from './sections/whatsay'
 import WithoutSpendin from './sections/withoutspendin'
+import WithSpendin from './sections/withspendin'
+import { Theme } from './theme'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +18,7 @@ function App() {
         <HowWorks/>
         <WithSpendin/>
         <WithoutSpendin/>
+        <WhatSay/>
     </Theme>
   )
 }

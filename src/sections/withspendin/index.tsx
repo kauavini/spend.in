@@ -1,6 +1,6 @@
-import "./styles.css"
 import BalanceStatistics from "../../assets/balance-statistics.svg"
 import SucessTitle from "../../assets/sucess-circle.svg"
+import "./styles.css"
 
 export default function WithSpendin(){
 

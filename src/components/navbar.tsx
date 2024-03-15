@@ -1,9 +1,10 @@
 import "./styles.css"
 
+import { ChevronDown } from "lucide-react"
+
+
 import SpendinLogo from "../assets/spendin-logo.svg"
 import SpendinName from "../assets/spendin.svg"
-
-import { ChevronDown } from "lucide-react"
 
 export function Navbar(){
 

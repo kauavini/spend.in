@@ -1,0 +1,96 @@
+.comments-container{
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #040815;
+     z-index: 1000;
+}
+
+
+.comments-container h2{
+  font-size: 1.25rem;
+  color: #7C5CFC;
+
+}
+
+.comments-container h1{
+  margin-top: 0.8rem;
+  font-size: 2.5rem;
+  color: #ffff;
+}
+
+.comments-title{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.comments-title p{
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: var(--gray-secondary);
+  width: 80%; 
+  text-align: center;
+}
+
+
+.comments{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+.comments .card{
+  background-color: var(--gray);
+  width: 24rem;
+  height: 22.6875rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+
+.comments .card h3{
+  font: 1.25rem;
+  color: #fff;
+}
+
+
+.comments .card p{
+  margin-top: 1rem;
+  font: 1rem;
+  color: var(--text-gray);
+}
+
+.comments .card > div{
+  display: flex;
+  margin-top: 3rem;
+  border-top: 1px solid var(--gray-secondary);
+}
+
+.comments .card > div .comment-photo, .comment-user{
+  margin-top: 1.5rem;
+}
+
+.comment-user{
+  margin-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.comment-user h4{
+  font-weight: bold;
+}
+
+.comment-user span{
+  margin-top: -20ox;
+}
